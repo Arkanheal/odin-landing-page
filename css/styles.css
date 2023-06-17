@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+h1, h2, p {
+  padding: 0;
+  margin: 0;
+}
+
 ul {
   list-style: none;
 }
@@ -52,7 +57,6 @@ header {
 .header-text h1 {
   font-weight: 900;
   font-size: 48px;
-  margin: 0;
 }
 
 .header-text p, .header-nav li a {
@@ -141,6 +145,28 @@ header {
 }
 
 /* CTA */
+.cta-section {
+  background-color: #3882F6;
+  margin: 90px 20%;
+  border-radius: 10px;
+  padding: 48px 18px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue-cta {
+  color: #F9FAF8;
+}
+
+
+.cta-button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  font-weight: bold;
+  border: 2px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 0 48px;
+}
 
 /* FOOTER */
 .footer {
